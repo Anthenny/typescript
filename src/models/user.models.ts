@@ -1,7 +1,7 @@
 import mongoose from 'mongoose';
 import bcrypt from 'bcrypt';
 import config from 'config';
-import { string } from 'zod';
+
 // Typescript definition
 export interface UserDocument extends mongoose.Document {
   email: string;
